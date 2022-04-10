@@ -1,0 +1,49 @@
+.container{
+    width: 70%;
+    border: 5px solid black;
+}
+.flex{
+    height: 70px;
+    background-color: gray;
+    border-bottom: solid white;
+    display: flex;
+    position: relative;
+}
+.flex:last-child{
+    border-bottom-style: none;
+}
+.red{
+    background-color: #ffcccc;
+    width: 20%;
+}
+.green{
+    background-color: #ccffcc;
+    width: 15%;
+}
+.blue{
+    background-color: #ccccff;
+    width: 45%;
+}
+.flex1{
+    justify-content: flex-start;
+}
+.flex2{
+    justify-content: flex-end;
+}
+.flex3{
+    justify-content: center;
+}
+.flex4{
+    justify-content: space-between;
+}
+.flex5{
+    justify-content: space-around;
+}
+h2{
+    position: absolute;
+    align-self:center;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 30px;
+    font-weight: bold;
+}
